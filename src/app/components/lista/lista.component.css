@@ -1,0 +1,29 @@
+img {
+  width: 30px;
+}
+
+.tabela {
+  padding: 5px 10px;
+}
+
+thead {
+  font-weight: bolder;
+
+}
+
+.flag {
+  width: 100px;
+  align-items: left;
+  padding-top: 5px;
+}
+
+.name {
+  width: 300px;
+  padding-right: 30px;
+  text-align: left;
+}
+
+.capital {
+  width: 200px;
+  text-align: left;
+}

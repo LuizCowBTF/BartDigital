@@ -1,0 +1,18 @@
+<div class="tabela">
+  <table>
+    <thead>
+      <tr>
+        <td>Bandeira</td>
+        <td>Nome</td>
+        <td>Capital</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let country of countries! | async">
+        <td class="flag"><img [src]="country.flag" alt="" /></td>
+        <td class="name">{{ country.name }}</td>
+        <td class="capital">{{ country.capital }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
